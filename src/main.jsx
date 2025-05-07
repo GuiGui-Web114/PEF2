@@ -21,7 +21,16 @@ const route = createBrowserRouter([
       { path: '/prato', element: <HealthyPlatesPage/>},
     ],
   },
-]);
+], {
+  basename: '/PEF2' 
+});
+
+ReactDom.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={route} />
+  </React.StrictMode>,
+);
+
 ReactDom.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={route} />
