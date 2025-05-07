@@ -1,9 +1,9 @@
 
   {
-    "name": "GuiGui-Web114",
+    "homepage": "https://GuiGui-Web114.github.io/PEF2/",
+    "name": "ProNut",
     "version": "1.0.0",
     "private": true,
-    "homepage": "https://EsperancaFran.github.io/GuiGui-Web114",
     "scripts": {
       "dev": "vite",
       "build": "vite build",
