@@ -28,9 +28,10 @@ function App() {
                   style={{ fontSize: '1rem' }}
                 >
                   <NavDropdown.Item as={Link} to="/alimentos">Alimentos</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/dicas">Dicas</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/mitos">Mitos</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/receitas">Receitas</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/2">Quiz Alimentar</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/1">Montando uma refeição</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/mitos">(0%)Mitos</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/receitas">(0%)Receitas</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item as={Link} to="/gorduras-saudaveis">
                     Óleos e Gorduras
